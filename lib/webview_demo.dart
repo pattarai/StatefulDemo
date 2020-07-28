@@ -33,6 +33,7 @@ class _WebViewDemo extends State<WebViewDemo> {
             print("fired");
             count++;
             if (count == 2) {
+              count = 0;
               Navigator.of(context).pop();
             }
           },
